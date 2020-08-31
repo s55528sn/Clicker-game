@@ -165,7 +165,7 @@ let loop = setInterval(() => {
       plySt[7].src = "img/playerB.png";
       plyHp -= eneAtt0;
       if (plyHp > 0) {
-        plySt[2].textContent = "Hp:" + plyHp;
+        plySt[2].textContent = "HP:" + plyHp;
         eneSec.textContent = "モンスターの攻撃まで" + eneCnt + "秒";
       } else {
         plyHp = 0;
